@@ -1,6 +1,6 @@
 {
-  "name": "Flashlight",
-  "version": "0.1.0",
+  "name": "Eaterysearch",
+  "version": "0.0.1",
   "description": "A search utility for Firebase",
   "homepage": "https://github.com/firebase/flashlight",
   "author": {
@@ -8,15 +8,17 @@
     "email": "katowulf@gmail.com"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "0.11.x"
   },
   "main": "app.js",
   "devDependencies": {},
   "dependencies": {
     "elastic.js-update": "~1.1.1",
-    "colors": "~0.6.2",
+    "faye-websocket": "~0.9.2"
+    "colors": "~1.0.3",
     "JQDeferred": "~1.9.1",
     "firebase": "2.1.0",
+    "elasticsearch": "~3.1.1",
     "elasticsearchclient": "~0.5.3"
   }
 }
