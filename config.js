@@ -63,12 +63,12 @@ else {
 exports.paths = [
    {
       path:  "restaurants",
-      index: "firebase",
+      index: "name",
       type:  "restaurant"
    },
    {
       path:  "schedules",
-      index: "firebase",
+      index: "time",
       type:  "schedule",
       fields: ['time', 'booked'],
       filter: function(data) { return data.name !== 'system'; }
